@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Links</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar/avatar-dark.png"
+          alt="Minha foto official dark mode."
+        />
+        <p>Gilson Leonel Virgílio Loureiro</p>
+        <span class="typing" style="color: orange;"></span>
+
+        <div id="social-links">
+          <a href="mailto:gilson.leonel05@gmail.com" target="_blank">
+            <ion-icon name="mail-unread-outline"></ion-icon>
+          </a>
+  
+          <a href="callto:+244(944)704591" target="_blank">
+            <ion-icon name="call"></ion-icon>
+          </a>
+        </div>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#" target="">Acessar o meu site</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/gilson-leonel01/gilson-leonel01">Ver meu portfólio</a>
+        </li>
+
+        <li>
+          <a href="#" target="">Acessar outros links</a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/gilson-leonel01" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/gilson-leonel01/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/gilson_leonel1" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.facebook.com/gilson.loureiro.23" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+
+        <a href="https://www.twitter.com/gilson_leonel1/" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        <p>
+          Copyright &copy; 
+          <span id="currentYear"></span> 
+          FLAMES Inc. All rights reserved.
+        </p>
+        <br><br>
+        Feito com 
+        <ion-icon name="rocket"></ion-icon> 
+        <a href="https://rocketseat.com.br/">Rocketseat</a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" referrerpolicy="no-referrer"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
